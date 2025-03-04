@@ -68,7 +68,7 @@ const Form = ({ setPrediction, setError }) => {
         <input className="form-control mt-2" type="number" name="age" placeholder="Age (years)" onChange={handleChange} />
         {formErrors.age && <p className="error-message">{formErrors.age}</p>}
 
-        <button className="btn btn-primary mt-3" type="submit">Predict Price</button>
+        <button className="btn btn-dark mt-3" type="submit">Predict Price</button>
       </form>
     </div>
   );

@@ -13,15 +13,16 @@ const ChartComponent = ({ actualPrices = [], predictedPrices = [] }) => {
     }
 
     chartRef.current = new Chart(ctx, {
-      type: "line", // Changed from "bar" to "line"
+      type: "bar", // Changed from "line" to "bar"
       data: {
         labels: actualPrices.map((_, index) => `House ${index + 1}`),
         datasets: [
-          { label: "Actual Price ($1000)", data: actualPrices, borderColor: "blue", fill: false },
-          { label: "Predicted Price ($1000)", data: predictedPrices, borderColor: "red", fill: false }
+          { label: "Actual Price ($1000)", data: actualPrices, borderColor: "blue", backgroundColor: "black", fill: false },
+          { label: "Predicted Price ($1000)", data: predictedPrices, borderColor: "red", backgroundColor: "white", fill: false }
         ]
       },
       options: {
+        indexAxis: 'y', // Set the bar chart to be horizontal
         responsive: true,
         plugins: { legend: { display: true } }
       }
