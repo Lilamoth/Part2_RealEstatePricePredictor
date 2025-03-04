@@ -1,72 +1,66 @@
-# Getting Started with Create React App
+ Real Estate Price Prediction App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+This repository contains two projects:
+**Real Estate Price Prediction App**: An app that predicts real estate prices using a neural network built with Brain.js, taking various property features such as area, number of bedrooms, bathrooms, location, and age of the property to predict its price.
 
-## Available Scripts
+## Features & Technologies Used
 
-In the project directory, you can run:
+### Real Estate Price Prediction App:
+- **Frontend**: React.js
+- **Machine Learning**: Brain.js (for neural network)
+- **Styling**: Bootstrap (or Tailwind, depending on your choice)
+- **Data Visualization**: Chart.js or Recharts
+- **Persistent Storage**: LocalStorage or IndexedDB
+- **Deployment**: Netlify/Vercel/GitHub Pages
 
-### `npm start`
+## How to Run Locally
+### Real Estate Price Prediction App:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Lilamoth/Part2_RealEstatePricePredictor.git
+   ```
+2. **Navigate to the Project Folder**:
+   ```bash
+   cd Part2_RealEstatePricePredictor
+   ```
+3. **Install Dependencies**: Install the required packages:
+   ```bash
+   npm install
+   ```
+4. **Run the App**: Start the development server:
+   ```bash
+   npm start
+   ```
+   The app will be running at http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features Implemented
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Self-Driving Car Tutorial:
+- **Autonomous Driving**: The car can navigate through the environment using machine learning techniques.
+- **Sensor Integration**: The car makes decisions based on inputs from virtual sensors or camera feeds.
 
-### `npm test`
+### Real Estate Price Prediction App:
+- **Data Input Form**: Users can enter property details (area, number of bedrooms, bathrooms, location, and age of the property).
+- **Neural Network Model**: A simple neural network is trained using Brain.js, which predicts property prices based on the user input.
+- **Data Visualization**: The app displays a comparison between predicted prices and actual prices using Chart.js.
+- **Persistent Model Storage**: The trained model is stored in LocalStorage or IndexedDB, allowing users to reuse the model without retraining.
+- **Responsive UI**: The app is styled using Bootstrap and is fully responsive across different devices.
+- **Error Handling**: Implemented error handling for invalid inputs and failed predictions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+### Real Estate Price Prediction App:
+- **React.js** for building the user interface.
+- **Brain.js** for the neural network model.
+- **Chart.js or Recharts** for data visualization.
+- **Bootstrap CSS** for styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Data Collection & Preprocessing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Real Estate Price Prediction App:
+A real estate dataset (real_estate_dataset.xlsx) was used for training the neural network. Data was preprocessed by normalizing values (min-max scaling) to ensure accurate predictions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Part2_RealEstatePricePredictor
+The app is deployed using GitHub Pages. You can access the live version of the Real Estate Price Prediction App here.
