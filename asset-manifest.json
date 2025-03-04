@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/real-estate-price-predictor/static/css/main.e684f1ce.css",
+    "main.js": "/real-estate-price-predictor/static/js/main.58afb679.js",
+    "static/js/453.994fb914.chunk.js": "/real-estate-price-predictor/static/js/453.994fb914.chunk.js",
+    "static/media/backgroundimg1.jpg": "/real-estate-price-predictor/static/media/backgroundimg1.3137bcd33e7669ce15f3.jpg",
+    "index.html": "/real-estate-price-predictor/index.html",
+    "main.e684f1ce.css.map": "/real-estate-price-predictor/static/css/main.e684f1ce.css.map",
+    "main.58afb679.js.map": "/real-estate-price-predictor/static/js/main.58afb679.js.map",
+    "453.994fb914.chunk.js.map": "/real-estate-price-predictor/static/js/453.994fb914.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e684f1ce.css",
+    "static/js/main.58afb679.js"
+  ]
+}
