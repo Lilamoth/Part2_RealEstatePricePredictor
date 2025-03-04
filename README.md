@@ -1,7 +1,6 @@
  Real Estate Price Prediction App
 
 ## Project Overview
-This repository contains two projects:
 **Real Estate Price Prediction App**: An app that predicts real estate prices using a neural network built with Brain.js, taking various property features such as area, number of bedrooms, bathrooms, location, and age of the property to predict its price.
 
 ## Features & Technologies Used
@@ -9,10 +8,9 @@ This repository contains two projects:
 ### Real Estate Price Prediction App:
 - **Frontend**: React.js
 - **Machine Learning**: Brain.js (for neural network)
-- **Styling**: Bootstrap (or Tailwind, depending on your choice)
-- **Data Visualization**: Chart.js or Recharts
-- **Persistent Storage**: LocalStorage or IndexedDB
-- **Deployment**: Netlify/Vercel/GitHub Pages
+- **Styling**: Bootstrap
+- **Data Visualization**: Chart.js
+- **Persistent Storage**: LocalStorage
 
 ## How to Run Locally
 ### Real Estate Price Prediction App:
